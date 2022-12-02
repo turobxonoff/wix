@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+$padding: 10px 100px 50px;
+$padding1:70px 100px 0 100px;
+.container-fluid {
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F3F3F3;
+}
+.header-section {
+    nav {
+        box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+        padding: 0 50px;
+    }
+    nav {
+        span {
+            font-size: 16px;
+            padding-right: 30px;
+        }
+        .boxlink {
+            font-size: 14px;
+            padding-right: 50px;
+            color: #000000;
+        }
+        .boxlink:hover {
+            color: blue;
+        }
+        .btn1 {
+            border-radius: 30px;
+            font-size: 18px;
+        }
+        .btn1:hover {
+            cursor: pointer;
+            transition: all 0.3s linear;
+            transform: scale(1.1,1.1);
+        }
+    }
+}
+.main-section {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    .navbar {
+        width: 100%;
+        padding: 0 50px;
+        .navbar-collapse {
+            padding-left: 570px;
+        }
+        .navbar-brand {
+            font-size: 22px;
+            font-weight: 600;
+            border: none;
+            color: #000000;
+            small {
+                font-weight: 200;
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link.active {
+                    color: orange;
+                }
+            }
+            .nav-item:hover {
+                color: orange;
+                    transition: all 0.3s linear;
+            }
+        }
+    }
+    &__home {
+        img {
+            border-radius: 50%;
+            margin: 100px 0 50px 150px;
+        } 
+        .home-info {
+            h1 {
+                font-size: 80px;
+                font-weight: 600;
+            }
+            h2 {
+                font-weight: 600;
+                font-size: 30px;
+            }
+            .lead {
+                font-size: 15px;
+                padding-right: 250px;
+            }
+        }
+        .buttons {
+            a {
+                text-decoration: none;
+                color: #000000;
+                font-weight: bold;
+                font-size: 24px;
+            }
+            .btn1 {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                padding: 53px 0 0 5px;
+                border: 1px solid #000000;
+            }
+            .btn2 {
+                @extend .btn1;
+            }
+            .btn3 {
+                @extend .btn1;
+            }
+    
+            .btn1 {
+                background-color: #EEA302;
+            }
+    
+            .btn2 {
+                background-color: #FF3B25;
+            }
+    
+            .btn3 {
+                background-color: #80D8DA;
+            }
+    
+            .btn1:hover {
+                background-color: white;
+                border: 1px solid #000000;
+                transition: all 0.45s linear;
+                cursor: pointer;
+            }
+        }
+    }
+    &__work {
+        padding: 100px 100px 50px;
+        h2 {
+            padding: $padding;
+            font-weight: 600;
+        }
+        .work-cards {
+            h3 {
+                font-weight: 600;
+                padding-left: 100px;
+            }
+            h4 {
+                font-weight: 600;
+                font-size: 22px;
+            }
+            .lead {
+                font-size: 18px;
+            }
+            .paragraph {
+                padding-left: 320px;
+            }
+        }
+    }
+    &__education {
+        padding: 100px 100px 50px;
+        .education-padding {
+            h3 {
+                font-weight: 600;
+                padding-left: 100px;
+            }
+            h4 {
+                font-weight: 600;
+                font-size: 22px;
+                padding-right: 100px;
+            }
+            .lead {
+                font-size: 18px;
+            }
+            .paragraph {
+                padding-left: 320px;
+            }
+        }
+    }
+    &__skills {
+        padding: 100px 100px 0;
+        h3 {
+            padding: $padding;
+            font-weight: 600;
+        }
+        .navigation-items {
+            padding-left: 350px;
+        }
+    }
+    &__project-name {
+        padding-top: 100px;
+        h2 {
+            padding: 10px 100px 0;
+            font-weight: 600;
+        }
+        .project-names {
+            .project-name1 {
+                padding: 100px 50px 0 100px;
+                h4 {
+                    font-weight: 600;
+                }
+                .lead{
+                    font-size: 17px;
+                }
+            }
+            .project-name2 {
+                padding-right: 200px;
+                padding-top: 100px;
+            }
+        }
+    }
+    &__contact {
+        padding-top: 100px;
+        .row {
+            h2 {
+                padding: 10px 200px 0;
+                font-weight: 600;
+            }
+            .lead {
+                font-size: 17px;
+                padding-left: 200px;
+            }
+            .phone {
+                padding: 20px 0 20px 200px;
+                h5 {
+                    font-weight: 600;
+                }
+            }
+            .email {
+                @extend .phone;
+                padding-top: 0;
+            }
+            form {
+                padding-right: 100px;
+                .form-control {
+                    background-color: #F3F3F3;
+                    border: 1px solid #000000;
+                }
+                .btn {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+.footer-section {
+    padding: 50px;
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+    .padding {
+        padding-left: 100px;
+    }
+    .lead {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 446.9px) {
+    .container-fluid {
+        max-width: 447px;
+        margin: 0 auto;
+    }
+    .header-section {
+        display: none;
+    }
+    .main-section {
+        padding-top: 10px;
+        .navbar {
+            padding: 0;
+            .navbar-collapse {
+                padding: 0;
+            }
+            .container-fluid {
+                display: flex;
+            }
+            .navbar-brand {
+                font-size: 15px;
+            }
+            .small {
+                font-size: 15px;
+            }
+            .links {
+                padding: 0;
+                text-align: center;
+            }
+        }
+        &__home {
+            flex-direction: column-reverse;
+            img {
+                margin: 0;
+                width: 330px;
+                height: 330px;
+            }
+            .home-info {
+                h1 {
+                    padding-left: 40px;
+                }
+                h2 {
+                    padding-left: 40px;
+                }
+                .lead {
+                    padding: 0 30px 0 40px;
+                }
+            }
+            .buttons {
+                padding-left: 10px;
+                .btn1 {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    font-size: 18px;
+                    padding-top: 35px;
+                }
+            }
+        }
+        &__work {
+            padding: 0;
+            h2 {
+                padding: 50px 30px 0;
+            }
+            .work-cards {
+                flex-direction: column;
+                padding: 50px 2px 0 30px;
+                h3 {
+                    padding-left: 0;
+                }
+                .row {
+                    padding-top: 30px;
+                    .paragraph {
+                        padding-left: 10px;
+                        font-size: 15px;
+                    }
+                }
+                .lead {
+                    font-size: 15px;
+                }
+            }
+        }
+        &__education {
+            padding: 0;
+            .education-padding {
+                flex-direction: column;
+                h3 {
+                    padding: 20px 0 10px 30px;
+                }
+                h4 {
+                    padding-left: 30px;
+                    font-size: 18px;
+                }
+                .paragraph {
+                    padding-left: 40px;
+                    font-size: 15px;
+                }
+                .lead {
+                    font-size: 15px;
+                    padding: 5px 2px 0 30px;
+                }
+            }
+        }
+        &__skills {
+            padding: 0;
+            flex-direction: column;
+            .navigation-items {
+                padding: 0 2px 0 40px;
+                .navigation-item {
+                    font-size: 15px;
+                }
+            }
+            h3 {
+                padding: 10px 0 10px 30px;
+                width: 40%;
+            }
+        }
+        &__project-name {
+            padding: 0;
+            h2 {
+                padding: 30px 0 10px 20px;
+            }
+            .project-names {
+                flex-direction: column;
+                .project-name1 {
+                    padding: 10px 2px 0 20px;
+                }
+                .project-name2 {
+                    padding: 20px ;
+                    img {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+        &__contact {
+            padding-top: 30px;
+            .row {
+                h2 {
+                    padding-left: 20px;
+                }
+                .lead {
+                    padding-left: 20px;
+                }
+                .phone {
+                    padding: 10px 0 5px 20px;
+                }
+                form {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+    .footer-section {
+        padding: 10px 2px 0 30px;
+        .row {
+            flex-direction: column;
+            .padding {
+                padding: 20px 0 10px 10px;
+            }
+            .lead {
+                padding-top: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.container-fluid {
+  max-width: 1370px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F3F3F3;
+}
+
+.header-section nav {
+  box-shadow: 0 2px 18px 0 rgba(129, 162, 182, 0.2);
+  padding: 0 50px;
+}
+.header-section nav span {
+  font-size: 16px;
+  padding-right: 30px;
+}
+.header-section nav .boxlink {
+  font-size: 14px;
+  padding-right: 50px;
+  color: #000000;
+}
+.header-section nav .boxlink:hover {
+  color: blue;
+}
+.header-section nav .btn1, .header-section nav .main-section__home .buttons .btn3, .main-section__home .buttons .header-section nav .btn3, .header-section nav .main-section__home .buttons .btn2, .main-section__home .buttons .header-section nav .btn2 {
+  border-radius: 30px;
+  font-size: 18px;
+}
+.header-section nav .btn1:hover, .header-section nav .main-section__home .buttons .btn3:hover, .main-section__home .buttons .header-section nav .btn3:hover, .header-section nav .main-section__home .buttons .btn2:hover, .main-section__home .buttons .header-section nav .btn2:hover {
+  cursor: pointer;
+  transition: all 0.3s linear;
+  transform: scale(1.1, 1.1);
+}
+
+.main-section {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.main-section .navbar {
+  width: 100%;
+  padding: 0 50px;
+}
+.main-section .navbar .navbar-collapse {
+  padding-left: 570px;
+}
+.main-section .navbar .navbar-brand {
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  color: #000000;
+}
+.main-section .navbar .navbar-brand small {
+  font-weight: 200;
+}
+.main-section .navbar .navbar-nav .nav-item .nav-link.active {
+  color: orange;
+}
+.main-section .navbar .navbar-nav .nav-item:hover {
+  color: orange;
+  transition: all 0.3s linear;
+}
+.main-section__home img {
+  border-radius: 50%;
+  margin: 100px 0 50px 150px;
+}
+.main-section__home .home-info h1 {
+  font-size: 80px;
+  font-weight: 600;
+}
+.main-section__home .home-info h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.main-section__home .home-info .lead {
+  font-size: 15px;
+  padding-right: 250px;
+}
+.main-section__home .buttons a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 24px;
+}
+.main-section__home .buttons .btn1, .main-section__home .buttons .btn3, .main-section__home .buttons .btn2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 53px 0 0 5px;
+  border: 1px solid #000000;
+}
+.main-section__home .buttons .btn1, .main-section__home .buttons .btn2, .main-section__home .buttons .btn3 {
+  background-color: #EEA302;
+}
+.main-section__home .buttons .btn2 {
+  background-color: #FF3B25;
+}
+.main-section__home .buttons .btn3 {
+  background-color: #80D8DA;
+}
+.main-section__home .buttons .btn1:hover, .main-section__home .buttons .btn2:hover, .main-section__home .buttons .btn3:hover {
+  background-color: white;
+  border: 1px solid #000000;
+  transition: all 0.45s linear;
+  cursor: pointer;
+}
+.main-section__work {
+  padding: 100px 100px 50px;
+}
+.main-section__work h2 {
+  padding: 10px 100px 50px;
+  font-weight: 600;
+}
+.main-section__work .work-cards h3 {
+  font-weight: 600;
+  padding-left: 100px;
+}
+.main-section__work .work-cards h4 {
+  font-weight: 600;
+  font-size: 22px;
+}
+.main-section__work .work-cards .lead {
+  font-size: 18px;
+}
+.main-section__work .work-cards .paragraph {
+  padding-left: 320px;
+}
+.main-section__education {
+  padding: 100px 100px 50px;
+}
+.main-section__education .education-padding h3 {
+  font-weight: 600;
+  padding-left: 100px;
+}
+.main-section__education .education-padding h4 {
+  font-weight: 600;
+  font-size: 22px;
+  padding-right: 100px;
+}
+.main-section__education .education-padding .lead {
+  font-size: 18px;
+}
+.main-section__education .education-padding .paragraph {
+  padding-left: 320px;
+}
+.main-section__skills {
+  padding: 100px 100px 0;
+}
+.main-section__skills h3 {
+  padding: 10px 100px 50px;
+  font-weight: 600;
+}
+.main-section__skills .navigation-items {
+  padding-left: 350px;
+}
+.main-section__project-name {
+  padding-top: 100px;
+}
+.main-section__project-name h2 {
+  padding: 10px 100px 0;
+  font-weight: 600;
+}
+.main-section__project-name .project-names .project-name1 {
+  padding: 100px 50px 0 100px;
+}
+.main-section__project-name .project-names .project-name1 h4 {
+  font-weight: 600;
+}
+.main-section__project-name .project-names .project-name1 .lead {
+  font-size: 17px;
+}
+.main-section__project-name .project-names .project-name2 {
+  padding-right: 200px;
+  padding-top: 100px;
+}
+.main-section__contact {
+  padding-top: 100px;
+}
+.main-section__contact .row h2 {
+  padding: 10px 200px 0;
+  font-weight: 600;
+}
+.main-section__contact .row .lead {
+  font-size: 17px;
+  padding-left: 200px;
+}
+.main-section__contact .row .phone, .main-section__contact .row .email {
+  padding: 20px 0 20px 200px;
+}
+.main-section__contact .row .phone h5, .main-section__contact .row .email h5 {
+  font-weight: 600;
+}
+.main-section__contact .row .email {
+  padding-top: 0;
+}
+.main-section__contact .row form {
+  padding-right: 100px;
+}
+.main-section__contact .row form .form-control {
+  background-color: #F3F3F3;
+  border: 1px solid #000000;
+}
+.main-section__contact .row form .btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.footer-section {
+  padding: 50px;
+}
+.footer-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-section a {
+  color: #000000;
+  text-decoration: none;
+}
+.footer-section .padding {
+  padding-left: 100px;
+}
+.footer-section .lead {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 446.9px) {
+  .container-fluid {
+    max-width: 447px;
+    margin: 0 auto;
+  }
+  .header-section {
+    display: none;
+  }
+  .main-section {
+    padding-top: 10px;
+  }
+  .main-section .navbar {
+    padding: 0;
+  }
+  .main-section .navbar .navbar-collapse {
+    padding: 0;
+  }
+  .main-section .navbar .container-fluid {
+    display: flex;
+  }
+  .main-section .navbar .navbar-brand {
+    font-size: 15px;
+  }
+  .main-section .navbar .small {
+    font-size: 15px;
+  }
+  .main-section .navbar .links {
+    padding: 0;
+    text-align: center;
+  }
+  .main-section__home {
+    flex-direction: column-reverse;
+  }
+  .main-section__home img {
+    margin: 0;
+    width: 330px;
+    height: 330px;
+  }
+  .main-section__home .home-info h1 {
+    padding-left: 40px;
+  }
+  .main-section__home .home-info h2 {
+    padding-left: 40px;
+  }
+  .main-section__home .home-info .lead {
+    padding: 0 30px 0 40px;
+  }
+  .main-section__home .buttons {
+    padding-left: 10px;
+  }
+  .main-section__home .buttons .btn1, .main-section__home .buttons .btn2, .main-section__home .buttons .btn3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 18px;
+    padding-top: 35px;
+  }
+  .main-section__work {
+    padding: 0;
+  }
+  .main-section__work h2 {
+    padding: 50px 30px 0;
+  }
+  .main-section__work .work-cards {
+    flex-direction: column;
+    padding: 50px 2px 0 30px;
+  }
+  .main-section__work .work-cards h3 {
+    padding-left: 0;
+  }
+  .main-section__work .work-cards .row {
+    padding-top: 30px;
+  }
+  .main-section__work .work-cards .row .paragraph {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  .main-section__work .work-cards .lead {
+    font-size: 15px;
+  }
+  .main-section__education {
+    padding: 0;
+  }
+  .main-section__education .education-padding {
+    flex-direction: column;
+  }
+  .main-section__education .education-padding h3 {
+    padding: 20px 0 10px 30px;
+  }
+  .main-section__education .education-padding h4 {
+    padding-left: 30px;
+    font-size: 18px;
+  }
+  .main-section__education .education-padding .paragraph {
+    padding-left: 40px;
+    font-size: 15px;
+  }
+  .main-section__education .education-padding .lead {
+    font-size: 15px;
+    padding: 5px 2px 0 30px;
+  }
+  .main-section__skills {
+    padding: 0;
+    flex-direction: column;
+  }
+  .main-section__skills .navigation-items {
+    padding: 0 2px 0 40px;
+  }
+  .main-section__skills .navigation-items .navigation-item {
+    font-size: 15px;
+  }
+  .main-section__skills h3 {
+    padding: 10px 0 10px 30px;
+    width: 40%;
+  }
+  .main-section__project-name {
+    padding: 0;
+  }
+  .main-section__project-name h2 {
+    padding: 30px 0 10px 20px;
+  }
+  .main-section__project-name .project-names {
+    flex-direction: column;
+  }
+  .main-section__project-name .project-names .project-name1 {
+    padding: 10px 2px 0 20px;
+  }
+  .main-section__project-name .project-names .project-name2 {
+    padding: 20px;
+  }
+  .main-section__project-name .project-names .project-name2 img {
+    width: 300px;
+  }
+  .main-section__contact {
+    padding-top: 30px;
+  }
+  .main-section__contact .row h2 {
+    padding-left: 20px;
+  }
+  .main-section__contact .row .lead {
+    padding-left: 20px;
+  }
+  .main-section__contact .row .phone, .main-section__contact .row .email {
+    padding: 10px 0 5px 20px;
+  }
+  .main-section__contact .row form {
+    padding: 20px;
+  }
+  .footer-section {
+    padding: 10px 2px 0 30px;
+  }
+  .footer-section .row {
+    flex-direction: column;
+  }
+  .footer-section .row .padding {
+    padding: 20px 0 10px 10px;
+  }
+  .footer-section .row .lead {
+    padding-top: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
